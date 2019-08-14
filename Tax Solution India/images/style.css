@@ -1,0 +1,306 @@
+body{margin:0px; padding:0px;}
+
+/************************************************
+* General *
+************************************************/
+table {font-size: 12px; color: #2C0354; font-family:Arial, Helvetica, sans-serif; text-align:left; line-height:1.6em;}
+
+h1{margin:0px; padding:0px 0px 15px 0px; font-size:29px; font-weight:normal; color:#D21B16;}
+h2{margin:0px; padding:25px 0px 12px 0px; font-size:21px; font-weight:normal; color:#284256;}
+h2 a{font-size:21px; font-weight:normal; color:#284256; text-decoration:none;}
+h2 a:hover{font-size:21px; font-weight:normal; color:#284256; text-decoration:none;}
+
+h3{margin:0px; padding:0px 0px 20px 0px; font-size:22px; font-weight:normal; color:#D21B16;}
+h4{margin:0px; padding:0px 0px 4px 0px; font-size:13px; color:000;}
+
+/************************************************
+* Container - This class is for main table(if needed)*
+************************************************/
+.container{width:978px; background:#fff; padding:1px;}
+
+/************************************************
+* Header - for header section*
+************************************************/
+.header {
+	/************background:url(header-bg.jpg) no-repeat; ************/
+	padding: 0px 0px 0px 0px; height:100px;
+    background-color:#E2F2FD;
+	} 
+.headershadow {background:url(header-menu-shadow.gif) repeat-x; height:20px;}
+.logo1{padding: 0px 0px 0px 20px;}
+.toplink {color:#D21B16; font-size:14px; font-weight:bold;}
+.toplink span{color:#D21B16; font-size:14px; font-weight:bold;}
+.toplink a {color:#123874; font-size:14px; font-weight:bold; text-decoration:none;}
+.toplink a:hover {color:#123874; font-size:14px; font-weight:bold; text-decoration:underline;}
+
+/************************************************
+* Header Navigation *
+************************************************/
+.navbg{
+	/*********************background:url(menu-bg-dac.gif) repeat-x top;***********/
+	font-size:12px; color:#ffffff;
+	background-color:#2C0354;
+	}
+
+/************************************************
+* Right Sidebar *
+************************************************/
+.rightside {margin:0px 0px 0px 0px; padding:20px 20px 10px 20px; background:#fff;}
+.rightsideshadow {background:url(content-rt-shadow.gif) top no-repeat;}
+.rightlink {color:#D21B16; font-size:20px;}
+.rightlink a {color:#D21B16; font-size:20px; text-decoration:none;}
+.rightlink a:hover {color:#D21B16; font-size:20px; text-decoration:underline;}
+.rightlink span{color:#676767; font-size:14px;}
+.rightlink span a{color:#676767; font-size:14px; text-decoration:none;}
+.rightlink span a:hover{color:#676767; font-size:14px; text-decoration:underline;
+}
+
+/************************************************
+* Content *
+************************************************/
+.shadowlt {background:url(shadow-lt.png) repeat-y;}
+.shadowrt {background:url(shadow-rt.png) repeat-y;}
+.content { background:url(content-bg.gif) top repeat-x; padding:28px 25px 20px 25px;} 
+.imgborder {background:#f0f0f0; border:#d1d1d1 1px solid; padding:8px;}
+.contentlable {color:#0d3565;}
+
+.service {color:#000; }
+.service ul{list-style:none; padding:5px 0px 10px 0px; margin:0px;}
+.service ul li{color:#2c2c2c;font-size:13px; font-weight:bold; padding:6px 0px 5px 0px;}
+.service ul li a{text-decoration:none; color:#2c2c2c; font-size:13px; background:url(arrow.gif) no-repeat 0px 5px; padding:0px 0px 0px 10px; font-weight:bold;}
+.service ul li a:hover{text-decoration:underline; color:#D21B16; font-size:13px; font-weight:bold;}
+
+/************************************************
+* Support page *
+************************************************/
+.support_lable{font-size:13px; color:#000; background:#ecf5fe; padding:6px; border-bottom:#d3dee8 solid 1px; border-top:#d3dee8 solid 1px;}
+.support_lable a{ text-decoration:none; font-size:13px; color:#000;   padding:6px; }
+.support_lable a:hover{ text-decoration:underline; font-size:13px; color:#000;  padding:6px; }
+
+ul.subpoint  {list-style:none; margin:0px; padding:5px 0px 17px 20px;}
+ul.subpoint li { background:url(arrow.gif) no-repeat 0px 7px; padding:0px 0px 0px 10px}
+ul.subpoint li a{ text-decoration:none; color:#284256; font-size:12px; font-weight:bold;}
+ul.subpoint li a:hover{ text-decoration:none; color:#000; font-size:12px; font-weight:bold;}
+
+ul.subpoint_sub  {list-style:none; margin:0px; padding:8px 0px 5px 20px;}
+ul.subpoint_sub li { background:url(subpoint_ar.html) no-repeat 0px 8px; padding:0px 0px 0px 10px; margin-bottom:5px;}
+ul.subpoint_sub li a{ text-decoration:none; color:#000; font-size:12px; font-weight:normal;}
+ul.subpoint_sub li a:hover{ text-decoration:underline; color:#000; font-size:12px; font-weight:normal;}
+/************************************************
+* request quote page *
+************************************************/
+a.maillink {color:#0d3565; text-decoration:none;}
+a.maillink:hover {color:#0d3565; text-decoration:underline;}
+
+
+
+a.readmore {color:#0d3565; text-decoration:underline;}
+a.readmore:hover {color:#0d3565; text-decoration:none;}
+
+/************************************************
+* Footer*
+************************************************/
+.footer {
+/**********	background:url(footer-bg.gif) repeat-x; *************/
+	  background-color: #E2F2FD;  
+	padding:0px 0px 0px 0px; height:80px;}
+.footer a{text-decoration:none; color:#e5e5e5; font-weight:bold;}
+.footer a:hover{text-decoration:underline; color:#e5e5e5; font-weight:bold;}
+.footercopy{ padding: 0px 0px 0px 0px; text-align:center; color:hsl(261, 92%, 30%);}
+/************************************************
+* partner page *
+************************************************/
+a.contentlink {color:#164ab5; font-size:12px; text-decoration:underline;}
+a.contentlink:hover {color:#164ab5; font-size:12px; text-decoration:none;}
+
+/************************************************
+* Grid related Class *
+************************************************/
+input {border: #b8b8b8 1px solid; padding:3px; color: #000000; background: url(textboxbg.html) #ffffff repeat-x; font-size:12px; font-family:Arial, Helvetica, sans-serif;} /* default class for the textboxes for whole project */
+textarea {border: #b8b8b8 1px solid; padding:3px; font-size: 12px; background: url(textboxbg.html) #ffffff repeat-x; color: #000000; font-family:Arial, Helvetica, sans-serif; } /* default class for the textarea for whole project */
+select {border: #b8b8b8 1px solid; padding:3px; font-size: 12px; background: url(textboxbg.html) #ffffff repeat-x; color: #000000; font-family:Arial, Helvetica, sans-serif; } /* default class for the list menu/dropdown(like to select countries or state) for whole project */
+
+.inputbutton {cursor: pointer; color: #fff; text-align:center; background:url(view-more-btn.html) no-repeat; border:none; font-size:12px; font-weight:bold;  font-family:Arial, Helvetica, sans-serif; height:23px; width:73px; padding-bottom:3px;} /* to make custom type of inputbutton for whole project */
+.mandatory{color:#990000; font-weight:bold; font-size:12px;} /* to display mandatory things in the form, like "*"  */
+.label{color:#999999; font-weight:bold; } /* to give the class for fields label  */
+
+.dottedline{background:url(images/dotted.html) repeat-x top; height:9px;} /* for dotted lines */
+.border{border:1px solid #97b7dc; padding:2px;} /* common class to use border in the whole project */
+.nobg { background:none; border:none;} /* to give remove the background color or border of CHECKBOX and RADIO BUTTON */
+.sfont{font-size:10px; color:#ccc; font-style:italic;} /* for small grey font like to write comments near textfield in the grid */
+.altbg{background-color:#f1f7fe;  border-top:1px solid #b8d6f9; } /* for grid's alternate raw */
+.nrlbg{background-color:#fff;   border-top:1px solid #b8d6f9;} /* for grid's normal raw */
+.gridheaderbg{background:url(images/gridheaderbg.html) repeat-x; height:28px; color:#fff;  line-height:normal;} /* for the image or background color of grid's header */
+
+
+
+.asfont{font-size:12px; color:#4e4e4e; font-weight:bold;}
+.txt
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:justify;
+line-height:21px;
+color:#333;
+}
+
+.inputbox_11{ border:1px solid #B6B6B6; padding:4px;}
+.inputbox_11:hover{ border:1px solid #002E45; padding:4px;}
+
+.selectbox{ border:1px solid #B6B6B6;}
+.selectbox:hover{ border:1px solid #002E45;}
+
+.areabox{ border:1px solid #B6B6B6; padding:4px;}
+.areabox:hover{ border:1px solid #002E45;}
+.submit_btn {
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(botton.jpg);
+	background-repeat:repeat-x;
+	border:0px solid #089D49;
+	cursor:pointer;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+	padding-right:10px;
+	height:26px;
+}
+.inputbox {border:1px solid #B6B6B6; padding:4px;}
+div.rotator {
+	position:relative;
+	height:275px;
+	display: none;
+	width:960px;
+	overflow:hidden;
+}
+/* rotator css */
+div.rotator ul {
+	padding:0px;
+	margin:0px;
+}
+div.rotator ul li {
+	float:left;
+	position:absolute;
+	list-style:none;
+}
+
+
+/* rotator image style */ div.rotator ul li img {
+	background:#FFF;
+	width:100% !important;
+	height:280px !important;
+	
+	padding-left:8px;
+	
+	
+}
+div.rotator ul li.show {
+	z-index:1;
+}
+
+.search input.field {
+width: 120px;
+padding: 0 8px;
+height: 24px;
+line-height: 24px;
+border: 1px solid #d3d3d3;
+font-size: 11px;
+color: #bebebe;
+background: #ededed;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+}
+.search input.search-btn {
+float: right;
+font-size: 0;
+line-height: 0;
+text-indent: -4000px;
+cursor: pointer;
+width: 20px;
+height: 26px;
+border: 0;
+background: url(search-ico.png) no-repeat 0 0 !important;
+}
+.maq{
+	font-size:12px;
+	font-weight:normal;
+	color:#0000FF;
+	
+}
+
+.job-hea
+{
+	font-size:14px;
+	line-height:20px;
+	color:#012d54;
+	font-weight:bold;
+}
+.job-hea a
+{
+	font-size:14px;
+	line-height:20px;
+	color:#0382b3;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.job-hea a:hover
+{
+	color:#e80402;
+}
+.job-hea1
+{
+	font-size:12px;
+	line-height:20px;
+	color:#ff6600;
+}
+.job-hea1 a
+{
+	font-size:12px;
+	line-height:20px;
+	color:#ff6600;
+	text-decoration:none;
+}
+
+.job-hea1 span
+{
+	color:#e80402;
+}
+.job-txt a
+{
+	font-size:12px;
+	line-height:20px;
+	color:#34363E;
+	text-decoration:none;
+}
+.logo h1
+{
+	font-family: -moz-fixed, -webkit-fixed;
+font-size: 27px;
+width: 400px !important;
+float: left;
+color: #F00;
+margin: 0px 0 0 10px;
+padding: 10px;
+border-bottom:none;
+	
+}
+.logo h1 span
+{
+font-family: -moz-fixed, -webkit-fixed;
+font-size: 20px;
+float: left;
+color:#000 ;
+padding-left: 30px;
+font-style:italic;
+}
+.txt a{
+
+text-decoration:none;
+}
+table tr td .txt a .bn {
+text-decoration:none;
+padding:10px;
+baclground:#2c0354;
+}

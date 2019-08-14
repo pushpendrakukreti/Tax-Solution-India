@@ -1,0 +1,197 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TaxSolutionOnline.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Taxsolutiononline</title>
+<link href="images/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+
+<!-- Configuracion calendario -->
+<!-- Banner Ppal.-->
+
+<script type="text/javascript" src="js/homeslid.js"></script>
+<link rel="stylesheet" type="text/css" href="images/ddsmoothmenu.css">
+<script type="text/javascript" src="images/ddsmoothmenu.js"></script>
+<style type="text/css">
+    #smoothmenu1{
+        margin-top:0.3%;
+        margin-left:0.3%;
+        margin-right:0.3%;
+    }
+    #smoothmenu1 ul li{
+        margin-left:0.3%;
+    }
+  .button a{
+  background-color: #004A7F !important;
+  border: none !important;
+  color: #FFFFFF !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-family: Arial !important;
+  font-size: 18px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  -webkit-animation: glowing 1500ms infinite !important;
+  -moz-animation: glowing 1500ms infinite !important;
+  -o-animation: glowing 1500ms infinite !important;
+  animation: glowing 1500ms infinite !important;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+.button a:hover{
+  border: none !important;
+  color: #FFFFFF !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-family: Arial !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  -webkit-animation: glowing 1500ms infinite !important;
+  -moz-animation: glowing 1500ms infinite !important;
+  -o-animation: glowing 1500ms infinite !important;
+  animation: glowing 1500ms infinite !important;
+}
+</style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td class="shadowlt" valign="top" width="10">&nbsp;</td>
+      <td class="container" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tbody>
+            <tr>
+              <td valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tbody>
+                    <tr>
+                    
+                      <td class="header">
+                      <table width="" border="0">
+  <tr>
+    <td width="100%" style="float:left" class="logo"><img src="images/logo.png"></td>
+    <tr style="float:left;padding-left: 131px;margin-top: -80px;">
+<td style="font-size: 30px; color:004061; padding-top: 3%;"><b>Tax Solution Online</b></td>
+</tr>
+<tr style="float:left;padding-left: 131px;margin-top: -52px;">
+<td style="font-size: 18px; color:65AD48; padding-left: 1%; width: 1500px; padding-top: 1%;"><b>CHARTERED ACCOUNTANTS</b></td>
+  </tr>
+    
+  </tr>
+</table>
+
+                      
+                        
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="navbg" valign="top"><div id="smoothmenu1" class="ddsmoothmenu">
+                          <ul>
+                            <li class="home"><a href="index.aspx">HOME</a></li>
+                            <li class="about"><a href="about us.aspx">About Us&nbsp;</a>
+                              </li>
+                             <li class="services"><a href="services.aspx">OUR SERVICES</a>
+                              <!--<ul >
+                                <li><a href="#">&nbsp;&nbsp;Accounting Services</a></li>
+                                <li><a href="#">&nbsp;&nbsp;Audit</a></li>
+                                <li><a href="#">&nbsp;&nbsp;Bank Finance and Audits</a></li>
+                                <li><a href="#">&nbsp;&nbsp;Corporate Finance</a></li>
+                                <li><a href="#">&nbsp;&nbsp;Corporate Governance Services</a></li>
+                                <li><a href="#">&nbsp;&nbsp;Income Tax</a></li>
+                                <li><a href="#">&nbsp;&nbsp;Service Tax</a></li>
+                                <li><a href="#">&nbsp;&nbsp;Value Added Tax (VAT)</a></li>
+                              </ul>-->
+                            </li>
+                           <!-- <li ><a href="company info.aspx">company formation</a></li> -->
+                             <li class="association"><a href="association.aspx">Association</a></li>
+                            <!--<li ><a href="forms.aspx">Forms</a></li>-->
+                            
+                            <li class="career"><a href="career.aspx">CAREER</a></li>
+                            <li class="enquiry"><a href="enquiry.aspx">ENQUIRY</a></li>
+                            <!--<li ><a href="#" >My Articles</a></li>-->
+                            <%--<li class="contact"><a href="contact us.aspx">CONTACT US</a></li>--%>
+
+                            <li style="float: right;" class="button"><a href="admin/login.aspx">Login</a></li>
+                            <!--<li ><a href="contact-us.aspx">Admin</a>
+<ul>
+         <li><a href="javascript:void(0)" target="_blank"  onclick="window.open('#','','left=350,top=220,height=300,width=500');" style="width:100px;">&nbsp;&nbsp;Login</a></li>
+          <li><a href="#" target="_blank"  style="width:100px;">&nbsp;&nbsp;Email Login</a></li>
+         <li ><a href="cpe_status.aspx"  target="_blank" style="width:100px;">&nbsp;&nbsp;CPE Status</a></li>
+
+         </ul>
+</li>-->
+                            
+                          </ul>
+                          <br style="clear: left">
+                        </div></td>
+                    </tr>
+                    <tr>
+                      <td class="headershadow" valign="top"></td>
+                    </tr>
+                    <tr class="bannercarousel">
+                      <td height="286" valign="top"><table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td align="center" background="images/mid_ban.aspx"><div  class="rotator">
+                                <ul >
+                                  <li ><img alt="banner" src="images/banner.png" width="960" height="275"></li>
+                                  <li ><img alt="banner" src="images/banner1.png" width="960" height="275"></li>
+                                  <li ><img alt="banner" src="images/banner2.png" width="960" height="275"></li>
+                                </ul>
+                              </div></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+              </tbody>
+                </table></td>
+            </tr>
+            <tr>
+              <td class="footer " align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" height="37"  style="background-color:#2C0354;"><a href="index.aspx" title="Home">Home</a> &nbsp; &nbsp; &nbsp; <a href="about us.aspx" title="About Us">About Us</a> &nbsp; &nbsp; &nbsp; <a href="services.aspx" title="Our Services">Our Services</a>
+                       &nbsp; &nbsp; &nbsp; <a href="association.aspx" title="Association" >Association</a>&nbsp; &nbsp; &nbsp;<a href="career.aspx" title="Career">Career</a>&nbsp; &nbsp; &nbsp;<a href="enquiry.aspx" title="Enquiry" >Consultancy</a>&nbsp; &nbsp; &nbsp;<a href="contact us.aspx" title="Contact Us">Contact Us </a>&nbsp; &nbsp; &nbsp;;</td>
+                    </tr>
+                    <tr>
+                      <td class="footercopy" align="center" height="43">&copy; Powered by <a href="http://rssindia.com/"  target="_blank" style="color:#000"> Rss Infotech Pvt. Ltd.<a href="http://rssindia.com.com/"target="_blank"></a><br/>
+                        Copyright © 2015, All Rights Reserved. </td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+    </form>
+</body>
+</html>
